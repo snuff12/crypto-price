@@ -120,7 +120,13 @@ const Detail = () => {
             <div>Rank #{coinInfo?.rank}</div>
           </div>
         </Info>
-        <MarketInfo>
+        <MarketInfo
+          priceChange={
+            (currency === "krw"
+              ? coinInfo?.priceChangePercent?.krw
+              : coinInfo?.priceChangePercent?.usd) ?? 0
+          }
+        >
           <Dropdown
             onClickElement={setCurrency}
             title={`${currency.toUpperCase()} 보기`}
@@ -230,12 +236,15 @@ const Info = styled.div<{ bookmarked: boolean; thumb: string }>`
   }
 `;
 
-const MarketInfo = styled.div`
+const MarketInfo = styled.div<{ priceChange: number }>`
   display: flex;
   flex-direction: column;
   > div:nth-child(1) {
   }
-  > div:nth-child() {
+  > div:nth-child(2) {
+    > div {
+      color: ${(props) => (props.priceChange > 0 ? "red" : "blue")};
+    }
   }
   > div:nth-child() {
   }
