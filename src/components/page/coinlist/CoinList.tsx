@@ -135,7 +135,10 @@ const CoinList = () => {
               </div>
             </div>
             <div>{coin.symbol}</div>
-            <div>{numberWithCommas(coin.currentPrice)}</div>
+            <div>
+              {(currency === "krw" ? "₩" : "$") +
+                numberWithCommas(coin.currentPrice)}
+            </div>
             <PriceChange change={coin.priceChange["1h"]}>
               {coin.priceChange["1h"].toFixed(1)}%
             </PriceChange>
