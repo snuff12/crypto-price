@@ -15,17 +15,17 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 ## 프로젝트 구조
 
 ㄴsrc<br/>
-    ㄴassets // 사용된 image<br/>
-    ㄴcomponents<br/>
-        ㄴdropdown // currency, per page 등 선택 기능<br/>
-        ㄴloading // api 로딩시 호출<br/>
-        ㄴtoast // toast 지정<br/>
-        ㄴpage<br/>
-            ㄴcoinlist // 전체 코인, 북마크 코인 리스트<br/>
-            ㄴdetail // 코인 디테일 정보 불러오기<br/>
-    ㄴinterface // coin 정보의 타입 지정<br/>
-    ㄴstyle // styled component 저장 목적<br/>
-    ㄴutils // 사용되는 함수들 저장 목적<br/>
+&nbsp;ㄴassets // 사용된 image<br/>
+&nbsp;ㄴcomponents<br/>
+&nbsp;&nbsp;ㄴdropdown // currency, per page 등 선택 기능<br/>
+&nbsp;&nbsp;ㄴloading // api 로딩시 호출<br/>
+&nbsp;&nbsp;ㄴtoast // toast 지정<br/>
+&nbsp;&nbsp;ㄴpage<br/>
+&nbsp;&nbsp;&nbsp;ㄴcoinlist // 전체 코인, 북마크 코인 리스트<br/>
+&nbsp;&nbsp;&nbsp;ㄴdetail // 코인 디테일 정보 불러오기<br/>
+&nbsp;ㄴinterface // coin 정보의 타입 지정<br/>
+&nbsp;ㄴstyle // styled component 저장 목적<br/>
+&nbsp;ㄴutils // 사용되는 함수들 저장 목적<br/>
 
 ## 사용한 라이브러리
 
