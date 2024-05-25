@@ -14,18 +14,19 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ## 프로젝트 구조
 
-ㄴsrc\n
-    ㄴassets // 사용된 image\n
-    ㄴcomponents\n 
-        ㄴdropdown // currency, per page 등 선택 기능\n
-        ㄴloading // api 로딩시 호출\n
-        ㄴtoast // toast 지정\n
-        ㄴpage\n
-            ㄴcoinlist // 전체 코인, 북마크 코인 리스트\n 
-            ㄴdetail // 코인 디테일 정보 불러오기\n
-    ㄴinterface // coin 정보의 타입 지정\n
-    ㄴstyle // styled component 저장 목적\n
-    ㄴutils // 사용되는 함수들 저장 목적\n
+ㄴsrc<br/>
+    ㄴassets // 사용된 image<br/>
+    ㄴcomponents<br/>
+        ㄴdropdown // currency, per page 등 선택 기능<br/>
+        ㄴloading // api 로딩시 호출<br/>
+        ㄴtoast // toast 지정<br/>
+        ㄴpage<br/>
+            ㄴcoinlist // 전체 코인, 북마크 코인 리스트<br/>
+            ㄴdetail // 코인 디테일 정보 불러오기<br/>
+    ㄴinterface // coin 정보의 타입 지정<br/>
+    ㄴstyle // styled component 저장 목적<br/>
+    ㄴutils // 사용되는 함수들 저장 목적<br/>
+
 ## 사용한 라이브러리
 
 ### axios
